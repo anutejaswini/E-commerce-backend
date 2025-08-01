@@ -29,7 +29,7 @@ const PORT = process.env.PORT || 5001;
 
 app.use(
     cors({
-        origin: 'http://localhost:5173',
+        origin: 'https://e-commerce-frontend-h69a.onrender.com',
         methods: ['GET', 'POST', 'DELETE', 'PUT'],  
         allowedHeaders: [
             "Content-Type",
