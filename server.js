@@ -29,7 +29,7 @@ const PORT = process.env.PORT || 5001;
 
 app.use(
     cors({
-        origin: 'https://e-commerce-frontend-h69a.onrender.com',
+        origin: 'https://anu-mart.onrender.com',
         methods: ['GET', 'POST', 'DELETE', 'PUT'],  
         allowedHeaders: [
             "Content-Type",
